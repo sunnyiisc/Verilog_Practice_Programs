@@ -10,7 +10,7 @@ module arbiter_tb;
 		.rst(rst),
 		.req0(req0),
 		.req1(req1),
-		.gnt0(gnt0).
+		.gnt0(gnt0),
 		.gnt1(gnt1)
 	);
 
