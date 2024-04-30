@@ -19,6 +19,10 @@ module arbiter_tb;
 	end
 
 	initial begin
+        //$monitor(req0, req1, gnt0, gnt1);
+        //$dumpfile('dump.vcd');
+        $dumpvars;
+
 		clk = 0;
 		rst = 0;
 		req0 = 0;
