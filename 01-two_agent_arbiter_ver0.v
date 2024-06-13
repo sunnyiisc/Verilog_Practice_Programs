@@ -1,6 +1,6 @@
 //Two Agent Arbiter
 
-module arbiter (clk,
+module arbiter_ver0 (clk,
 		rst,
 		req0,
 		req1,

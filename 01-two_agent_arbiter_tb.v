@@ -5,7 +5,7 @@ module arbiter_tb;
 	reg clk, rst, req0, req1;
 	wire gnt0, gnt1;
 
-	arbiter U0 (
+	arbiter_ver0 U0 (
 		.clk(clk),
 		.rst(rst),
 		.req0(req0),
